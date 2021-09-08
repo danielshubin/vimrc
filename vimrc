@@ -84,8 +84,8 @@ let g:autopep8_disable_show_diff = 1
 "Syntastic
 " E501 gets handled by auto-pep8
 let g:syntastic_quiet_messages = {"regex": [
-  ¦ ¦ \ "E111","E114","E121","E125","E128","E261","E731","501","W503", "E402"
-  ¦ ¦ \ ]}
+  \ "E111","E114","E121","E125","E128","E261","E731","501","W503", "E402"
+  \ ]}
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_jump = 0
 
